@@ -1,0 +1,144 @@
+#LoginPageBody{
+    width:600px;
+    height: 500px;
+    background-color: black;
+    opacity: 0.8;
+    border-color: black;
+    background-blend-mode: lighten;
+    border-style: ridge;
+    box-shadow: 20px 20px 20px grey;
+    border-radius: 100px 0px 100px 100px; 
+    position: absolute;
+    top:150px;
+    left:500px;  
+    color:aliceblue; 
+}
+@keyframes blink {
+    from{
+        color:chartreuse;
+    }
+    to{
+        color: aliceblue;
+    }
+
+    
+}
+
+.LOGLABEL{
+    display: flex;
+    position: relative;
+    left:50px;
+}
+#heading{
+    position: relative;
+    top:auto;
+    left: 180px;
+    animation: blink 1s ease-out infinite;
+}
+form{
+    position: relative;
+}
+.LOGINPUT{
+    position: relative;
+    top:30px;
+    right:100px;
+    width:600px;
+    height: 40px;
+    margin-bottom: 50px;
+    border-radius: 60px 60px 60px 60px;
+    border:2px solid whitesmoke;
+}
+@keyframes rotate{
+    0%{
+        border-color:red white white white;
+    }
+    25%{
+        border-right-color: red;
+
+    }
+    50%{
+        border-color: white white red white;
+    }
+    100%{
+        border-left-color:red;
+        
+    }
+    
+}
+#right{
+    position: relative;
+    left: 400px;
+    bottom: 30px;
+
+}
+#LoginBtn{
+    position: relative;
+    top: 20px;
+    width:300px;
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 90px 40px 80px 20px;
+    background-color: greenyellow;
+    font-size: larger;
+    left:150px;
+}
+#LoginBtn:hover{
+    opacity: 0.5;
+}
+.a{
+    position: relative;
+    display: fixed;
+    top: 30px;
+    left: 50px;
+}
+.logLink{
+    position: relative;
+    bottom:10px;
+    left:350px;
+
+}
+#ExitBtn{
+    background-color: white;
+    position: relative;
+    width: 50px;
+    font-size: larger;
+    font-weight: bolder;
+    height: 50px;
+    left:570px;
+    bottom: 460px;
+    border: 4px solid whitesmoke;
+    border-radius: 150px 150px 150px 150px;
+}
+#ExitBtn:hover{
+    background-color: greenyellow;
+    border-color: greenyellow;
+}
+#backGround1{
+    position: absolute;
+    z-index: -1;
+    border: 8px solid whitesmoke;
+    background-color:white;
+    top:22px;
+    right:100px;
+    width:518px;
+    height: 45px;
+    margin-bottom: 50px;
+    left:25px;
+    border-radius: 50px 50px 50px 50px;
+    animation: rotate 5s linear infinite;
+}
+
+#backGround2{
+    position: absolute;
+    z-index: -1;
+    border: 8px solid whitesmoke;
+    background-color:whitesmoke;
+    top:118px;
+    right:100px;
+    width:518px;
+    height: 45px;
+    margin-bottom: 50px;
+    left:25px;
+    border-radius: 50px 50px 50px 50px;
+    animation: rotate 5s linear infinite;
+}
